@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>WELCOME TO AUTHENTICATION PAGE</title>
+    </head>
+    <style>
+         h1 {
+            background-color: red;
+            color:white;
+            text-align: center;
+             }
+         h2  {
+            color: brown;
+              }
+         body {
+            background-color:wheat;
+              }
+        #myform
+        {
+            text-align: center;
+            left: 45px;
+            border-radius: 5px;
+            border: solid rgb(92, 65, 65);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+            cursor: pointer;
+            float: left;
+        }
+        
+        </style>
+    <body>
+            <h1>ENTER YOUR DETAILS:</h1>
+            <form action="/api/authenticate" id="myform" method="post">
+            EMAIL-ID:<input type="email" name="email"   placeholder="ENTER YOUR EMAIL-ID"><br><br>
+            PASSWORD:<input type="password" name="password" placeholder="ENETR YOUR PASSWORD"><br><br>
+            <input type="submit" value="SUBMIT"> 
+            </form>
+    </body>
+</html>

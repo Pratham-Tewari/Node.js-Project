@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>WELCOME TO REGISTRATION PAGE</title>
+    </head>
+    <style>
+        h1
+        {
+            background-color: red;
+            color: black;
+            text-align: center;
+         }
+       h2
+       {
+            color: brown;
+       }
+       body 
+    {
+        background-color:wheat;
+      
+    }
+    #myform
+    {
+        text-align: center;
+        left: 45px;
+        border-radius: 5px;
+        border: solid black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        cursor: pointer;
+        width: 300px;
+        height: 200px;
+        padding: 20px;;
+    }
+    
+    </style>
+    <body>
+        <h1>WELCOME TO GHARDEKHO.COM</h1>
+            <h2>ENTER YOUR DETAILS:</h2><BR>
+            <form action="/api/register" id="myform" method="post">
+            USERNAME:<input type="text" name="username" placeholder="ENTER YOUR NAME"><br><br>
+            EMAIL-ID:<input type="email" name="email"   placeholder="ENTER YOUR EMAIL-ID"><br><br>
+            PASSWORD:<input type="password" name="password" placeholder="ENETR YOUR PASSWORD"><br><br>
+            <input type="submit" value="SUBMIT"> 
+            </form>
+        
+    </body>
+</html>
